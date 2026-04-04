@@ -1,2 +1,2 @@
 # Portfolio
-Professional Portfolio created with HTML and CSS
+Professional Portfolio created with HTML and CSS.
