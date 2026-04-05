@@ -8,7 +8,7 @@
 }
 
 a {
-	color: #fff;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a {
 
 .navbar ul li:hover a,
 .navbar ul li.active a {
-	color: #ff6600;
+	color: #c0c0c0;
 }
 
 .home {
@@ -67,7 +67,7 @@ a {
 	gap: 50px;
 	height: 100vh;
 	padding: 60px 9% 0;
-	color: #fff;
+	color: #ffffff;
 	visibility: hidden;
 	opacity: 0;
 	animation: show-content 1.5s linear forwards;
@@ -88,9 +88,9 @@ a {
 	position: relative;
 	display: inline-block;
 	color: solid;
-	color: #ff6600;
+	color: #c0c0c0;
 	/*color: transparent;*/
-	-webkit-text-stroke: .7px #ff6600;
+	-webkit-text-stroke: .7px #c0c0c0;
 	animation: display-text 16s linear infinite;
 	animation-delay: calc(-4s * var(--i));
 }
@@ -106,8 +106,8 @@ a {
 	/*content: attr(data-text);*/
 	position: absolute;
 	width: 0;
-	border-right: 2px solid #ff6600;
-	color: #ff6600;
+	border-right: 2px solid #c0c0c0;
+	color: #c0c0c0;
 	white-space: nowrap;
 	/*overflow: hidden;*/
 	overflow: show-content;
@@ -138,10 +138,10 @@ a {
 .btn {
 	display: inline-block;
 	padding: 10px 30px;
-	background: #ff6600;
-	border: 2px solid #ff6600;
+	background: #c0c0c0;
+	border: 2px solid #c0c0c0;
 	border-radius: 40px;
-	box-shadow: 0 0 10px #ff6600;
+	box-shadow: 0 0 10px #c0c0c0;
 	font-size: 16px;
 	color: #1f242d;
 	font-weight: 600;
@@ -150,7 +150,7 @@ a {
 
 .btn:hover {
 	background: transparent;
-	color: #ff6600;
+	color: #c0c0c0;
 	box-shadow: none;
 }
 
@@ -161,18 +161,18 @@ a {
 .home-info .btn-sci .sci a {
 	display: inline-flex;
 	padding: 8px;
-	border: 2px sold #ff6600;
+	border: 2px sold #c0c0c0;
 	border-radius: 50%;
 	font-size: 20p;
-	color: #ff6600;
+	color: #c0c0c0;
 	margin: 0 8px;
 	transition: .5s;
 }
 
 .home-info .btn-sci .sci a:hover {
-	background: #ff6600;
+	background: #c0c0c0;
 	color: #1f242d;
-	box-shadow: 0 0 10px #ff6600;
+	box-shadow: 0 0 10px #c0c0c0;
 }
 
 .home-img .img-box {
@@ -194,7 +194,7 @@ a {
 	width: 500px;
 	height: 500px;
 	background: conic-gradient(transparent, transparent,
-	transparent, #ff6600);
+	transparent, #c0c0c0);
 	transform: rotate(0deg);
 	animation: rotate-border 10s linear infinite;
 }
