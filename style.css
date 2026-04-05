@@ -90,8 +90,8 @@ a {
 	color: solid;
 	color: #c0c0c0;
 	/*color: transparent;*/
-	-webkit-text-stroke: .7px #c0c0c0;
-	animation: display-text 16s linear infinite;
+	-webkit-text-stroke: .10px #c0c0c0;
+	animation: display-text 10s linear infinite;
 	animation-delay: calc(-4s * var(--i));
 }
 
@@ -102,7 +102,8 @@ a {
 	}
 }
 
-.home-info h2 span::before {
+.home-info h2 span::before,
+.home-info h2 span::after {
 	/*content: attr(data-text);*/
 	position: absolute;
 	width: 0;
