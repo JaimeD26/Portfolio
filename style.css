@@ -143,7 +143,7 @@ a {
 	border-radius: 40px;
 	box-shadow: 0 0 10px #c0c0c0;
 	font-size: 16px;
-	color: #3333FF;
+	color: #c0c0FF;
 	font-weight: 600;
 	transition: .5s;
 }
@@ -171,7 +171,7 @@ a {
 
 .home-info .btn-sci .sci a:hover {
 	background: #c0c0c0;
-	color: #3333FF;
+	color: #c0c0FF;
 	box-shadow: 0 0 10px #c0c0c0;
 }
 
@@ -213,9 +213,9 @@ a {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: #3333FF;
+	background: #c0c0FF;
 	border-radius: 50%;
-	border: .1px solid #3333FF;
+	border: .1px solid #c0c0FF;
 	display: flex;
 	justify-content: center;
 	z-index: 1;
@@ -242,7 +242,7 @@ a {
 .bars-animation .bar {
 	width: 100%;
 	height: 100%;
-	background: #3333FF;
+	background: #c0c0FF;
 	transform: translateY(-100%);
 	animation: show-bars .5s ease-in-out forwards;
 	animation-delay: calc(.1s * var(--i));
