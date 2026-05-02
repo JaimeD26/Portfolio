@@ -24,8 +24,8 @@ a {
 	z-index: 100;
 	visibility: hidden;
 	opacity: 0;
-	animation: show-content 2.5s linear forwards;
-	animation-delay: 1.5s;
+	animation: show-content 1.5s linear forwards;
+	animation-delay: 1.2s;
 }
 
 @keyframes show-content {
@@ -143,7 +143,7 @@ a {
 	border-radius: 40px;
 	box-shadow: 0 0 10px #100055;
 	font-size: 16px;
-	color: #111000;
+	color: #1b1b1b;
 	font-weight: 600;
 	transition: .5s;
 }
@@ -171,7 +171,7 @@ a {
 
 .home-info .btn-sci .sci a:hover {
 	background: #100055;
-	color: #111000;
+	color: #1b1b1b;
 	box-shadow: 0 0 10px #100055;
 }
 
@@ -213,9 +213,9 @@ a {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: #111000;
+	background: #1b1b1b;
 	border-radius: 50%;
-	border: .1px solid #111000;
+	border: .1px solid #1b1b1b;
 	display: flex;
 	justify-content: center;
 	z-index: 1;
@@ -242,7 +242,7 @@ a {
 .bars-animation .bar {
 	width: 100%;
 	height: 100%;
-	background: #111000;
+	background: #1b1b1b;
 	transform: translateY(-100%);
 	animation: show-bars .5s ease-in-out forwards;
 	animation-delay: calc(.1s * var(--i));
